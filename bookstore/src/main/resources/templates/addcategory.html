@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>category</h1>
+	<form action="#" th:action="@{/savecategory}"  th:object= ${category} method="post">
+	<p>category: <input type="text" th:field="*{name}" /></p>
+				<input type="submit" value="Submit" /> <input type="reset" value="Reset" />
+	</form>
+    
+
+</body>
+</html>
