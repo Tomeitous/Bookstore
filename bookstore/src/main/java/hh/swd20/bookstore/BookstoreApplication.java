@@ -32,8 +32,8 @@ public class BookstoreApplication {
 			Category category2 = new Category("Komedia");
 			drepository.save(category2);
 			
-			Repository.save(new Book("a", "b", "c@gmail.com", 10, category1));
-			Repository.save(new Book("sas", "sas", "ass@gmail.com", 12, category2));
+			Repository.save(new Book("Seitsemän veljestä", "Aleksis Kivi", "2345-234", 10, category1));
+			Repository.save(new Book("Sinuhe Egyptiläinen", "Mika Valtari", "3456-547", 12, category2));
 			
 			
 			
